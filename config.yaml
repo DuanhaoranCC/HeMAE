@@ -1,0 +1,40 @@
+Acm:
+  lr: 0.001
+  lr1: 0.05
+  noise: 0.15
+  p1: 0.9
+  p2: 0.3
+  rate: 0.9
+  w: 1e-05
+  epoch: 500
+  dim: 64
+DBLP:
+  lr: 5e-05
+  lr1: 0.005
+  noise: 0.05
+  p1: 0.7
+  p2: 0.6
+  rate: 0.3
+  w: 0.0
+  epoch: 110
+  dim: 256
+Freebase:
+  lr: 0.008
+  lr1: 0.08
+  noise: 0.05
+  p1: 0.8
+  p2: 0.5
+  rate: 0.4
+  w: 0.0001
+  epoch: 500
+  dim: 128
+IMDB:
+  lr: 0.001
+  lr1: 0.05
+  noise: 0.05
+  p1: 0.9
+  p2: 0.1
+  rate: 0.7
+  w: 0.0005
+  epoch: 200
+  dim: 128
